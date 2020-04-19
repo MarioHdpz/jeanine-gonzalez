@@ -1,0 +1,35 @@
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  .masthead-content {
+    img {
+      max-width: 250px;
+    }
+    position: relative;
+    .masthead-heading {
+      font-size: 2rem;
+    }
+    .masthead-subheading {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        font-size: 4rem;
+      }
+      .masthead-subheading {
+        font-size: 2rem;
+      }
+    }
+  }
+}
